@@ -12,7 +12,23 @@ body{
     padding: 10px 20px;
     border-radius: 2px;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47.66px;
+    text-align: center;
+}
+.section-part{
+    max-width: 1140px;
+    margin: 109px auto;
+    padding: 131px 157px;
+}
 /* header and navigation styles */
+.header-section{
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -51,3 +67,77 @@ nav ul li{
     margin: 10px 0;
 }
 .banner-image img{}
+
+/* about me styles */
+.about-me{
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+
+.about-me-container{
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.about-description{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.about-me-container .info-container .info{
+    text-align: center;
+}
+.about-me-container .info-container .info p{
+    
+}
+.about-me-container .info-container .info h{
+    
+}
+
+/* what i do styles */
+.what-i-do-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.what-i-do{
+    text-align: center;
+}
+.what-i-do h2{
+    line-height: 45px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what-i-do p {
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.whta-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+.whta-info .info-items {
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 25px 30px;
+}
+.whta-info .info-items img{
+    
+}
+.whta-info .info-items h2 {
+    margin: 10px 0;
+}
+.whta-info .info-items p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
