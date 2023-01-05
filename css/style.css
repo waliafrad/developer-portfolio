@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+/* header and navigation styles */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+/* banner styles goes here */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.banner-title {
+    font-size: 37px;
+    font-weight: 500;
+}
+.banner-content .sub-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-content .description {
+    margin: 10px 0;
+}
+.banner-image img{}
